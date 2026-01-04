@@ -63,42 +63,27 @@ Google-search-automations/
 ### Install Selenium
 ```bash
 pip install selenium
-
-
-⚙️ Setup Instructions
-
-
-Clone the repository
-
-
+```
+### ⚙️ Setup Instructions
+**1.Clone the repository**
+```bash
 git clone https://github.com/BS-World/Google-search-automations.git
 cd Google-search-automations
+```
 
+**Check Edge Version**
 
+**Open edge://settings/help**
 
-Check Edge Version
-
-
-
-
-Open edge://settings/help
-
-
-Download matching EdgeDriver from:
+**Download matching EdgeDriver from:**
 https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
-
-
-
-
-Update Driver Path in auto.py
-
-
+Update Driver Path in ```auto.py```
+```bash
 driver_path = r"D:\path\to\msedgedriver.exe"
-
+```
 
 ▶️ How to Run
-python auto.py
-
+python ```auto.py```
 
 🔎 Example Search Configuration
 search_texts = [
@@ -109,73 +94,55 @@ search_texts = [
 
 repeat_count = 10
 
-
 ⚠️ Important Warnings
-🚫 Do NOT use for:
 
+🚫 Do NOT use for:
 
 SEO manipulation
 
-
 Fake traffic
-
 
 Ad clicking
 
-
 Ranking abuse
-
 
 ✅ Allowed usage:
 
-
 Selenium learning
-
 
 Automation testing
 
-
 Browser behavior simulation
-
 
 Educational demos
 
-
-
 📌 Best Practices
-
 
 Use low repeat counts
 
-
 Add random delays
-
 
 Avoid running continuously
 
-
 Prefer headless mode for testing
 
-
-
 📄 License
+
 This project is licensed under the MIT License.
 You are free to modify and learn from it — responsibly.
 
 🙋 Support
-If you face issues:
 
+If you face issues:
 
 Check EdgeDriver version mismatch
 
-
 Ensure Selenium is installed
-
 
 Verify driver path
 
-
 Feel free to improve or refactor the scripts 🚀
+
 
 ---
 
